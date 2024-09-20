@@ -1,0 +1,17 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     main
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _freeMem, symObjAddr: 0x0, symBinAddr: 0x100002550, symSize: 0x134 }
+  - { offsetInCU: 0x54, offset: 0x54, size: 0x8, addend: 0x0, symName: _freeMem, symObjAddr: 0x0, symBinAddr: 0x100002550, symSize: 0x134 }
+  - { offsetInCU: 0xCC, offset: 0xCC, size: 0x8, addend: 0x0, symName: _generateGarageUtilizationReport, symObjAddr: 0x134, symBinAddr: 0x100002684, symSize: 0x1A0 }
+  - { offsetInCU: 0x152, offset: 0x152, size: 0x8, addend: 0x0, symName: _createGarage, symObjAddr: 0x2D4, symBinAddr: 0x100002824, symSize: 0x15C }
+  - { offsetInCU: 0x196, offset: 0x196, size: 0x8, addend: 0x0, symName: _createRegisteredVehicle, symObjAddr: 0x430, symBinAddr: 0x100002980, symSize: 0x164 }
+  - { offsetInCU: 0x1DA, offset: 0x1DA, size: 0x8, addend: 0x0, symName: _parkVehicle, symObjAddr: 0x594, symBinAddr: 0x100002AE4, symSize: 0x88 }
+  - { offsetInCU: 0x20C, offset: 0x20C, size: 0x8, addend: 0x0, symName: _registerVehicle, symObjAddr: 0x61C, symBinAddr: 0x100002B6C, symSize: 0x104 }
+  - { offsetInCU: 0x24C, offset: 0x24C, size: 0x8, addend: 0x0, symName: _removeVehicleFromGarage, symObjAddr: 0x720, symBinAddr: 0x100002C70, symSize: 0x124 }
+  - { offsetInCU: 0x2BA, offset: 0x2BA, size: 0x8, addend: 0x0, symName: _resizeGarage, symObjAddr: 0x844, symBinAddr: 0x100002D94, symSize: 0xC8 }
+  - { offsetInCU: 0x2FE, offset: 0x2FE, size: 0x8, addend: 0x0, symName: _searchVehicleByLicense, symObjAddr: 0x90C, symBinAddr: 0x100002E5C, symSize: 0x104 }
+  - { offsetInCU: 0x371, offset: 0x371, size: 0x8, addend: 0x0, symName: _displayVehiclesByOwner, symObjAddr: 0xA10, symBinAddr: 0x100002F60, symSize: 0x250 }
+  - { offsetInCU: 0x429, offset: 0x429, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xC60, symBinAddr: 0x1000031B0, symSize: 0x8B8 }
+...
